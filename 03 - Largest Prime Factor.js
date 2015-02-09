@@ -4,9 +4,6 @@
  * What is the largest prime factor of the number 600851475143 ?
  */
 
-
-
-// GoldbachConjecture
 var primes=[2];
 
 function nextPrime( prime ){
@@ -28,7 +25,7 @@ function nextPrime( prime ){
 				primes.push(i);
 				break;
 			}else {
-
+				// GoldbachConjecture
 				for(j=0;j<primes.length&&g!==i;j++){
 					var k = 0;
 					do{
@@ -41,7 +38,6 @@ function nextPrime( prime ){
 				}
 
 				if(g!==i){
-					console.log("Crap "+i);
 					break;
 				}
 			}
@@ -61,15 +57,10 @@ var prime = 2;
 // Iterate through the pime number sequence extracting the prime factors
 do{
 
-	console.log("test: " + prime);
-
 	// Is the remainder divisible by this prime?
 	if( n%prime === 0 ){
 		// Then this is a factor
 		factors.push( prime );
-
-		// Console
-		console.log( "factor: " + prime );
 
 		// Reset
 		n = n/prime;
@@ -82,6 +73,6 @@ do{
 
 } while (n!==1);
 
-console.log( factors );
-console.log( Math.max.apply( Math, factors ) );
 
+
+console.log( Math.max.apply( Math, factors ) );
