@@ -1,4 +1,3 @@
-# myFirstRepo
-Transition from CSV
+# Maths Concepts
 
-This is the first time I am editing a file in github.
+Computational Maths Problems
