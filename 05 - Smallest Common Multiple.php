@@ -36,17 +36,17 @@ function prime_check ($k) {
 	return $prime;
 }
 
-$LCM = 1; // Stores themultiples of the 
-$highest = 0; $lowest = 0; // These two variables are used to identify the minumum and maximum numbers
-							// This is purely for future if the code is t be developed to take in values
+$LCM = 1; 			// Stores themultiples of the 
+$highest = 0; $lowest = 0; 	// These two variables are used to identify the minumum and maximum numbers
+				// This is purely for future if the code is t be developed to take in values
 
 for ($i=2; $i<21; $i++){ 
 	
-	$max=0; // this variable stores the maximum amount of times a prime factors apears in a number
-			// of a given range. eg. the prime factor 2 appears a maximum of 4 times in the range of 
-			// 1 - 20 as a prime factor of 16
+	$max=0; 		// this variable stores the maximum amount of times a prime factors apears in a number
+				// of a given range. eg. the prime factor 2 appears a maximum of 4 times in the range of 
+				// 1 - 20 as a prime factor of 16
 
-	if (prime_check($i)){ // if a number is prime then check how many times it appears as a prime factor
+	if (prime_check($i)){ 	// if a number is prime then check how many times it appears as a prime factor
 		
 		for ($k=1; $k<21; $k++) {
 			
