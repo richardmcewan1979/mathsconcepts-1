@@ -71,15 +71,3 @@ for ($i=2; $i<21; $i++){
 echo "The lowest common multiple for numbers from ".$lowest." - ".$highest." is: ".$LCM;
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
