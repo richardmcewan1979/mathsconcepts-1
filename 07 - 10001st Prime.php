@@ -1,5 +1,7 @@
 <?php
 
+//use comments in your code dude!!!!!!!!!!!!!!!!!!!
+
 function prime_check ($k) {
 
 	$i = intval(sqrt($k)) + 1;
