@@ -1,5 +1,6 @@
 // Using Javascript to sum the arithmetic series
 // [using maths rather than summing loops requires very little processing].
+//dude!!
 
 var n = (1000 - 1),
 	x = 3,
